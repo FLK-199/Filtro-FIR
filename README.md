@@ -1,7 +1,7 @@
 Filtro FIR desenvolvido em Verilog com as seguintes caracteristicas:
   - Filtro do tipo 7-tap
   - 10 Bits de entrada
-  - Pessos = [-1 3 -5 10 -4 2 -2]
+  - Pessos = [-1, 3, -5, 10, -4, 2, -2]
 
 Imagem do circuito gerado pelo código:
 
