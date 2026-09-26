@@ -11,7 +11,6 @@ module Filtro_FIR_tb();
         #1 clr_tb <= 0;
         #2 clr_tb <= 1;
         #3 clr_tb <= 0;
-	     #1000 $finish;
     end
 
     always @ (posedge clk_tb)
