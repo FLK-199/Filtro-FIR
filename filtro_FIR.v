@@ -1,4 +1,4 @@
-module filtro_FIR(entrada, saida, clk, clr);
+module Filtro_FIR(entrada, saida, clk, clr);
     input clk;
     input clr;
     input signed [9:0] entrada;

@@ -1,4 +1,4 @@
-module testbench();
+module Filtro_FIR_tb();
     reg clk_tb = 0;
     reg clr_tb = 0;
     reg signed [9:0] entrada_tb;
@@ -11,7 +11,7 @@ module testbench();
         #1 clr_tb <= 0;
         #2 clr_tb <= 1;
         #3 clr_tb <= 0;
-	#100 $finish;
+	     #1000 $finish;
     end
 
     always @ (posedge clk_tb)
